@@ -4,11 +4,12 @@
 }
 
 main{
-    min-height: 95vh;
+    min-height: 80vh;
 }
 
 footer{
+    margin: 0;
+    padding: 1rem 0; /* ajuste conforme necessário */
     color: #ffffff;
     background-color: #808080;
-    height: 20vh;
 }
