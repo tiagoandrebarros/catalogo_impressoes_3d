@@ -31,3 +31,16 @@ footer{
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+.exibicao-produto {
+  max-width: 40%; /* padrão para desktops */
+  margin: auto;
+}
+
+/* Para qualquer tela menor que 992px (até tablets e smartphones) */
+@media (max-width: 576px) {
+  .exibicao-produto {
+    max-width: 80%;
+    margin: auto;
+  }
+}
