@@ -33,7 +33,7 @@ footer{
 }
 
 .exibicao-produto {
-  max-width: 40%; /* padrão para desktops */
+  max-width: 30%; /* padrão para desktops */
   margin: auto;
 }
 
@@ -59,4 +59,8 @@ footer{
   margin-bottom: 2rem;
   background-color: royalblue;
   height: 2px;
+}
+
+a{
+  text-decoration: none;
 }
