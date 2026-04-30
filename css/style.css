@@ -37,7 +37,6 @@ footer{
   margin: auto;
 }
 
-/* Para qualquer tela menor que 992px (até tablets e smartphones) */
 @media (max-width: 576px) {
   .exibicao-produto {
     max-width: 80%;
@@ -53,4 +52,11 @@ footer{
 .titulo_creditos_licenca{
   margin-top: 0;
   margin-bottom: 0.5em;
+}
+
+.linha_divisoria{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: royalblue;
+  height: 2px;
 }
