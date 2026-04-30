@@ -44,3 +44,13 @@ footer{
     margin: auto;
   }
 }
+
+.creditos_e_licenca{
+  font-size: 0.6rem;
+  user-select: none;
+}
+
+.titulo_creditos_licenca{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
