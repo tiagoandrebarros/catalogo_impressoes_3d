@@ -27,3 +27,9 @@ function carregarPagina(layout) {
       });
   });
 }
+
+function carregarPaginaRolarTopo(layout){
+  carregarPagina(layout).then(()=>{
+    window.scrollTo({top: 0,behavior: 'smooth'})
+  })
+}

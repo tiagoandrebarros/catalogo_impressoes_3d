@@ -64,3 +64,7 @@ footer{
 a{
   text-decoration: none;
 }
+
+.sticky-top img{
+  margin-top: 0.5rem;
+}
